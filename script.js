@@ -17,6 +17,10 @@ function setTheme(theme) {
   themeLabel.innerText = `${theme === 'dark' ? 'Light' : 'Dark'} Mode`
 }
 
+function storeTheme(theme) {
+  localStorage.setItem('Theme', theme)
+}
+
 function loadTheme() {
   const hasStoredTheme = localStorage.getItem('Theme') ? true : false
 
@@ -28,7 +32,3 @@ function loadTheme() {
 }
 
 loadTheme()
-
-function storeTheme(theme) {
-  localStorage.setItem('Theme', theme)
-}
