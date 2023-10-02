@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | Social Media Dashboard</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <header class="dashboard-header">
+        <div>
+          <h1 class="dashboard-title">Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <div class="theme-switcher">
+          <input
+            type="checkbox"
+            name="theme"
+            id="theme-toggle"
+            checked="true"
+          />
+          <label for="theme-toggle">Light Mode</label>
+        </div>
+      </header>
+      <main class="dashboard-main">
+        <section class="total">
+          <h2 class="section-title visually-hidden">Overview - Total</h2>
+          <div class="total__inner">
+            <div class="card" data-platform="facebook">
+              <div class="title">
+                <img src="./images/icon-facebook.svg" alt="Facebook" />
+                <p class="username">@nathanf</p>
+              </div>
+              <p class="count">1987</p>
+              <p class="unit">Followers</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>12 Today</span>
+              </p>
+            </div>
+            <div class="card" data-platform="twitter">
+              <div class="title">
+                <img src="./images/icon-twitter.svg" alt="Twitter" />
+                <p class="username">@nathanf</p>
+              </div>
+              <p class="count">1044</p>
+              <p class="unit">Followers</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>99 Today</span>
+              </p>
+            </div>
+            <div class="card" data-platform="instagram">
+              <div class="title">
+                <img src="./images/icon-instagram.svg" alt="Instagram" />
+                <p class="username">@realnathanf</p>
+              </div>
+              <p class="count">11k</p>
+              <p class="unit">Followers</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>1099 Today</span>
+              </p>
+            </div>
+            <div class="card" data-platform="youtube">
+              <div class="title">
+                <img src="./images/icon-youtube.svg" alt="Youtube" />
+                <p class="username">Nathan F.</p>
+              </div>
+              <p class="count">8239</p>
+              <p class="unit">Subscribers</p>
+              <p class="change">
+                <img src="./images/icon-down.svg" alt="" /><span
+                  >144 Today</span
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="today">
+          <h2 class="section-title">Overview - Today</h2>
+          <div class="today__inner">
+            <div class="card">
+              <p class="category">Page Views</p>
+              <img
+                src="./images/icon-facebook.svg"
+                class="logo"
+                alt="Facebook"
+              />
+              <p class="count">87</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>3%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Likes</p>
+              <img
+                src="./images/icon-facebook.svg"
+                class="logo"
+                alt="Facebook"
+              />
+              <p class="count">52</p>
+              <p class="change">
+                <img src="./images/icon-down.svg" alt="" /><span>2%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Likes</p>
+              <img
+                src="./images/icon-instagram.svg"
+                class="logo"
+                alt="Instagram"
+              />
+              <p class="count">5462</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>2257%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Profile Views</p>
+              <img
+                src="./images/icon-instagram.svg"
+                class="logo"
+                alt="Instagram"
+              />
+              <p class="count">52k</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>1375%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Retweeds</p>
+              <img src="./images/icon-twitter.svg" class="logo" alt="Twitter" />
+              <p class="count">117</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>303%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Likes</p>
+              <img src="./images/icon-twitter.svg" class="logo" alt="Twitter" />
+              <p class="count">507</p>
+              <p class="change">
+                <img src="./images/icon-up.svg" alt="" /><span>553%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Likes</p>
+              <img src="./images/icon-youtube.svg" class="logo" alt="Youtube" />
+              <p class="count">107</p>
+              <p class="change">
+                <img src="./images/icon-down.svg" alt="" /><span>19%</span>
+              </p>
+            </div>
+            <div class="card">
+              <p class="category">Total Views</p>
+              <img src="./images/icon-youtube.svg" class="logo" alt="Youtube" />
+              <p class="count">1407</p>
+              <p class="change">
+                <img src="./images/icon-down.svg" alt="" /><span>12%</span>
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
