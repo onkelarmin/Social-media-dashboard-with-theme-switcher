@@ -342,6 +342,7 @@ img[src*='down'] ~ span {
 
 .total .count {
   font-size: var(--fs-900);
+  line-height: 3rem;
 
   margin-top: 1.75rem;
 }
